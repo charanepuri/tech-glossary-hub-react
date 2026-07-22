@@ -1,0 +1,124 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "HTML",
+      "slug": "html",
+      "icon": "FaHtml5",
+      "color": "#E34F26",
+      "description": "Markup language for creating web pages."
+    },
+    {
+      "id": 2,
+      "name": "CSS",
+      "slug": "css",
+      "icon": "FaCss3Alt",
+      "color": "#1572B6",
+      "description": "Style sheet language used for designing web pages."
+    },
+    {
+      "id": 3,
+      "name": "JavaScript",
+      "slug": "javascript",
+      "icon": "FaJs",
+      "color": "#F7DF1E",
+      "description": "Programming language for interactive web applications."
+    },
+    {
+      "id": 4,
+      "name": "React",
+      "slug": "react",
+      "icon": "FaReact",
+      "color": "#61DAFB",
+      "description": "JavaScript library for building user interfaces."
+    },
+    {
+      "id": 5,
+      "name": "TypeScript",
+      "slug": "typescript",
+      "icon": "SiTypescript",
+      "color": "#3178C6",
+      "description": "Strongly typed programming language that builds on JavaScript."
+    },
+    {
+      "id": 6,
+      "name": "Node.js",
+      "slug": "nodejs",
+      "icon": "FaNodeJs",
+      "color": "#339933",
+      "description": "JavaScript runtime built on Chrome's V8 JavaScript engine."
+    },
+    {
+      "id": 7,
+      "name": "Python",
+      "slug": "python",
+      "icon": "FaPython",
+      "color": "#3776AB",
+      "description": "Versatile programming language widely used for web development and AI."
+    },
+    {
+      "id": 8,
+      "name": "Vue.js",
+      "slug": "vuejs",
+      "icon": "FaVuejs",
+      "color": "#4FC08D",
+      "description": "Progressive framework for building user interfaces."
+    },
+    {
+      "id": 9,
+      "name": "Next.js",
+      "slug": "nextjs",
+      "icon": "SiNextdotjs",
+      "color": "#000000",
+      "description": "React framework for full-stack web application development."
+    },
+    {
+      "id": 10,
+      "name": "Tailwind CSS",
+      "slug": "tailwindcss",
+      "icon": "SiTailwindcss",
+      "color": "#06B6D4",
+      "description": "Utility-first CSS framework for rapid UI development."
+    },
+    {
+      "id": 11,
+      "name": "GraphQL",
+      "slug": "graphql",
+      "icon": "SiGraphql",
+      "color": "#E10098",
+      "description": "Query language for APIs and runtime for fulfilling those queries."
+    },
+    {
+      "id": 12,
+      "name": "Docker",
+      "slug": "docker",
+      "icon": "FaDocker",
+      "color": "#2496ED",
+      "description": "Platform for developing, shipping, and running applications in containers."
+    },
+    {
+      "id": 13,
+      "name": "PostgreSQL",
+      "slug": "postgresql",
+      "icon": "SiPostgresql",
+      "color": "#4169E1",
+      "description": "Powerful, open-source object-relational database system."
+    },
+    {
+      "id": 14,
+      "name": "Git",
+      "slug": "git",
+      "icon": "FaGitAlt",
+      "color": "#F05032",
+      "description": "Distributed version control system for tracking source code changes."
+    },
+    {
+      "id": 15,
+      "name": "MongoDB",
+      "slug": "mongodb",
+      "icon": "SiMongodb",
+      "color": "#47A248",
+      "description": "Document-based NoSQL database designed for high performance and scalability."
+    }
+  ]
+}
