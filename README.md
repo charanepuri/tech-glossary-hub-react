@@ -27,13 +27,14 @@ The application is designed with a **clean dark UI**, responsive layout, reusabl
 
 ## ✨ Current Features
 
-- 🌙 Dark Theme by Default
-- ⚛️ React + Vite
-- 📂 Organized Project Structure
-- 🧭 React Router Navigation
-- 📱 Responsive Foundation
-- 📦 JSON-Based Data Architecture
-- 🎯 Clean & Scalable Codebase
+-🌙 Dark Theme by Default
+-⚛️ React + Vite
+-🧭 React Router Navigation
+-📱 Responsive Application Layout
+-🧩 Reusable Components
+-📂 Organized Project Structure
+-📦 JSON-Based Data Architecture
+-🎯 Clean & Scalable Codebase
 
 ---
 
@@ -119,23 +120,35 @@ npm run dev
 
 ## 📌 Current Progress
 
+✅ Completed
+
 ### ✅ Phase 1 — Completed
 
-- Project Setup
-- Vite Configuration
-- React Router Setup
-- Folder Structure
-- Global Styling
-- Dark Theme Foundation
-- Initial Pages
-- JSON Data Structure
+-Project Setup with Vite
+-React Router Configuration
+-Professional Folder Structure
+-Global Styling
+-Dark Theme Foundation
+-Initial Pages
+-JSON Data Architecture
+
+### ✅ Phase 2 — Completed
+
+-Responsive Navigation Bar
+-Responsive Footer
+-Reusable Layout Component
+-Container Component
+-Logo Component
+-Mobile Navigation
+-Active Route Navigation
+-Shared Layout Across Pages
 
 ---
 
 ## 📈 Development Roadmap
 
 - ✅ Phase 1 — Project Setup
-- ⏳ Phase 2 — Application Layout
+- ✅Phase 2 — Application Layout
 - ⏳ Phase 3 — Home Page
 - ⏳ Phase 4 — Categories
 - ⏳ Phase 5 — Category Details

@@ -1,5 +1,11 @@
+import Container from "../components/common/Container";
+
 function CategoryDetails() {
-  return <h1>Category Details Page</h1>;
+  return (
+    <Container>
+      <h1>CategoryDetails Page</h1>
+    </Container>
+  );
 }
 
 export default CategoryDetails;

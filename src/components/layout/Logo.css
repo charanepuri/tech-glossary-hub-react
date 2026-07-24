@@ -1,0 +1,11 @@
+/* Logo */
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.logo span {
+  color: var(--primary-color);
+}

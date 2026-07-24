@@ -1,5 +1,11 @@
+import Container from "../components/common/Container";
+
 function TermDetails() {
-  return <h1>Term Details Page</h1>;
+  return (
+    <Container>
+      <h1>TermDetails Page</h1>
+    </Container>
+  );
 }
 
 export default TermDetails;

@@ -1,5 +1,11 @@
+import Container from "../components/common/Container";
+
 function Glossary() {
-  return <h1>Glossary Page</h1>;
+  return (
+    <Container>
+      <h1>Glossary Page</h1>
+    </Container>
+  );
 }
 
 export default Glossary;

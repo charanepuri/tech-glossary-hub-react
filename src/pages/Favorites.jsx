@@ -1,5 +1,11 @@
+import Container from "../components/common/Container";
+
 function Favorites() {
-  return <h1>Favorites Page</h1>;
+  return (
+    <Container>
+      <h1>Favorites Page</h1>
+    </Container>
+  );
 }
 
 export default Favorites;
