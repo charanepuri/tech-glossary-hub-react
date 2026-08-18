@@ -31,6 +31,10 @@ function Navbar() {
               Glossary
             </NavLink>
 
+            <NavLink to="/search" onClick={closeMenu}>
+              Search
+            </NavLink>
+            
             <NavLink to="/favorites" onClick={closeMenu}>
               Favorites
             </NavLink>

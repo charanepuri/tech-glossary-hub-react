@@ -7,6 +7,7 @@ import Categories from "../pages/Categories";
 import CategoryDetails from "../pages/CategoryDetails";
 import Glossary from "../pages/Glossary";
 import TermDetails from "../pages/TermDetails";
+import Search from "../pages/Search";
 import Favorites from "../pages/Favorites";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
@@ -56,6 +57,15 @@ function AppRouter() {
         element={
           <Layout>
             <TermDetails />
+          </Layout>
+        }
+      />
+
+      <Route
+        path="/search"
+        element={
+          <Layout>
+            <Search />
           </Layout>
         }
       />
