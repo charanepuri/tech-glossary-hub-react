@@ -46,6 +46,48 @@
   gap: 1.5rem;
 }
 
+.glossary-empty-state {
+  padding: 4rem 1.5rem;
+
+  text-align: center;
+
+  background: var(--surface-color);
+
+  border: 1px solid var(--border-color);
+  border-radius: 14px;
+}
+
+.glossary-empty-state h3 {
+  margin-bottom: 0.75rem;
+
+  font-size: 1.3rem;
+}
+
+.glossary-empty-state p {
+  margin-bottom: 1.5rem;
+
+  color: var(--text-secondary);
+
+  line-height: 1.7;
+}
+
+.glossary-empty-state button {
+  padding: 0.75rem 1.25rem;
+
+  background: var(--primary-color);
+  color: #ffffff;
+
+  border-radius: 8px;
+
+  font-weight: 600;
+
+  transition: var(--transition);
+}
+
+.glossary-empty-state button:hover {
+  background: var(--primary-hover);
+}
+
 @media (max-width: 992px) {
   .glossary-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));

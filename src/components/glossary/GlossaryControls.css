@@ -1,0 +1,112 @@
+.glossary-controls {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr))
+    auto auto;
+
+  align-items: end;
+
+  gap: 1rem;
+
+  margin-bottom: 2rem;
+
+  padding: 1.25rem;
+
+  background: var(--surface-color);
+
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+}
+
+.glossary-filter-group {
+  display: flex;
+  flex-direction: column;
+
+  gap: 0.5rem;
+}
+
+.glossary-filter-group label {
+  color: var(--text-secondary);
+
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.glossary-filter-group select {
+  width: 100%;
+
+  padding: 0.75rem 0.85rem;
+
+  background: var(--bg-color);
+  color: var(--text-color);
+
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+
+  outline: none;
+
+  font-family: inherit;
+
+  cursor: pointer;
+
+  transition: var(--transition);
+}
+
+.glossary-filter-group select:focus {
+  border-color: var(--primary-color);
+}
+
+.reset-filters {
+  padding: 0.75rem 1rem;
+
+  background: transparent;
+  color: var(--primary-color);
+
+  border: 1px solid var(--primary-color);
+  border-radius: 8px;
+
+  font-weight: 600;
+
+  transition: var(--transition);
+}
+
+.reset-filters:hover {
+  background: var(--primary-color);
+  color: #ffffff;
+}
+
+.glossary-result-count {
+  padding-bottom: 0.75rem;
+
+  color: var(--text-secondary);
+
+  font-size: 0.85rem;
+  font-weight: 500;
+
+  white-space: nowrap;
+}
+
+@media (max-width: 992px) {
+  .glossary-controls {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .glossary-result-count {
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .glossary-controls {
+    grid-template-columns: 1fr;
+  }
+
+  .reset-filters {
+    width: 100%;
+  }
+
+  .glossary-result-count {
+    text-align: center;
+  }
+}
