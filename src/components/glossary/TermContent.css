@@ -1,0 +1,47 @@
+.term-content {
+  display: flex;
+  flex-direction: column;
+
+  gap: 1.5rem;
+}
+
+.term-section {
+  padding: 2rem;
+
+  background: var(--surface-color);
+  border: 1px solid var(--border-color);
+  border-radius: 14px;
+}
+
+.term-section h2 {
+  margin-bottom: 1rem;
+
+  font-size: 1.4rem;
+}
+
+.term-section p {
+  color: var(--text-secondary);
+
+  line-height: 1.9;
+}
+
+.term-section pre {
+  overflow-x: auto;
+
+  padding: 1.25rem;
+
+  background: var(--bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+}
+
+.term-section code {
+  color: var(--text-color);
+
+  font-family: "Courier New", monospace;
+  font-size: 0.9rem;
+  line-height: 1.7;
+
+  white-space: pre-wrap;
+  word-break: break-word;
+}

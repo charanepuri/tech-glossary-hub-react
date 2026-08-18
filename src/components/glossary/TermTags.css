@@ -1,0 +1,34 @@
+.term-tags-section {
+  margin-top: 1.5rem;
+
+  padding: 2rem;
+
+  background: var(--surface-color);
+  border: 1px solid var(--border-color);
+  border-radius: 14px;
+}
+
+.term-tags-section h2 {
+  margin-bottom: 1rem;
+
+  font-size: 1.4rem;
+}
+
+.term-tags {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 0.6rem;
+}
+
+.term-tags span {
+  padding: 0.45rem 0.7rem;
+
+  background: var(--bg-color);
+  color: var(--text-secondary);
+
+  border: 1px solid var(--border-color);
+  border-radius: 7px;
+
+  font-size: 0.8rem;
+}
